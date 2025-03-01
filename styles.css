@@ -1,0 +1,140 @@
+* , *::after , *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100svh;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+#nav-left {
+    display: flex;
+    gap: 2px;
+}
+
+#nav-left h3{
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 2px 8px;
+    height: fit-content;
+}
+
+#nav-left svg{
+    font-size: 17px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 1px;
+}
+
+#nav-center h2 {
+    font-weight: 400;
+    margin-left: 70px;
+}
+
+#nav-right button{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 5px 16px;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+#signup-btn {
+    border: none;
+    background-color: orangered !important;
+}
+
+#main h1{
+    width: 100%;
+    font-size: 180px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#image-cards img{
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img-0{
+    z-index: 1;
+}
+
+#img-1{
+    transform: translate(-50%, -50%) rotate(-30deg) !important;
+}
+#img-2{
+    transform: translate(-50%, -50%) rotate(-20deg) !important;
+}
+#img-3{
+    transform: translate(-50%, -50%) rotate(-10deg) !important;
+}
+
+#main > h3{
+    position: absolute;
+    font-size: 15px;
+    bottom: 3%;
+    left: 3%;
+}
+
+#bottom-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    font-size: 15px;
+    bottom: 2%;
+    right: 3%;
+}
+
+#sm-stack {
+    display: flex;
+    gap: 5px;
+}
+
+#sm-stack svg{
+    height: 40px;
+    width: 40px;
+}
+
+#main>svg{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 10px;
+    position: absolute;
+    left: 48.5%;
+    bottom: 3%;
+}
